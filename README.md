@@ -1,9 +1,8 @@
 
-# RockyBot: News Research Tool 
+# Querybot: News Research Tool 
 
-RockyBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
+Querybot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-![](rockybot.jpg)
 
 ## Features
 
@@ -15,33 +14,6 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 
 ## Installation
 
-1.Clone this repository to your local machine using:
-
-```bash
-  git clone https://github.com/codebasics/langchain.git
-```
-2.Navigate to the project directory:
-
-```bash
-  cd 2_news_research_tool_project
-```
-3. Install the required dependencies using pip:
-
-```bash
-  pip install -r requirements.txt
-```
-4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
-
-```bash
-  OPENAI_API_KEY=your_api_key_here
-```
-## Usage/Examples
-
-1. Run the Streamlit app by executing:
-```bash
-streamlit run main.py
-
-```
 
 2.The web app will open in your browser.
 

@@ -3,7 +3,11 @@
 
 Querybot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
+Built a RAG-based news research tool using LangChain, OpenAI embeddings, and FAISS to enable semantic search and Q&A over financial news articles.
 
+Implemented URL ingestion, text chunking, vector indexing, and pickle-based persistence for fast retrieval and reuse.
+
+Integrated LLM-powered question answering with source attribution via a Streamlit web interface.
 ## Features
 
 - Load URLs or upload text files containing URLs to fetch article content.

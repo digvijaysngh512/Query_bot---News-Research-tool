@@ -44,3 +44,7 @@ Built a Retrieval-Augmented Generation (RAG) system using LangChain, enabling qu
 Implemented text chunking (1000 tokens, 200 overlap), OpenAI embeddings, and FAISS vector indexing for semantic similarity search, with embeddings persisted via pickle for fast reuse 
 
 Integrated RetrievalQAWithSourcesChain with an LLM (ChatGPT/OpenAI) and a Streamlit UI, returning answers with source URLs for explainable news research workflows 
+
+◦ Built a RAG-based financial news Q&A tool using LangChain, OpenAI embeddings FAISS.
+◦ Implemented URL ingestion, text chunking, vector indexing, and pickle-based persistence for fast retrieval.
+◦ Integrated LLM-powered question answering with source attribution via a Streamlit web interface.

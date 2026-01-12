@@ -32,9 +32,11 @@ Querybot is a user-friendly news research tool designed for effortless informati
   - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
   - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
 
-## Project Structure
+# Conclusion
+Querybot – News Research Tool (GenAI / NLP / Product-Based AI) | Self Project
 
-- main.py: The main Streamlit application script.
-- requirements.txt: A list of required Python packages for the project.
-- faiss_store_openai.pkl: A pickle file to store the FAISS index.
-- .env: Configuration file for storing your OpenAI API key.
+Built a Retrieval-Augmented Generation (RAG) system using LangChain, enabling question answering over financial news articles loaded via URL/text inputs and processed with UnstructuredURLLoader 
+
+Implemented text chunking (1000 tokens, 200 overlap), OpenAI embeddings, and FAISS vector indexing for semantic similarity search, with embeddings persisted via pickle for fast reuse 
+
+Integrated RetrievalQAWithSourcesChain with an LLM (ChatGPT/OpenAI) and a Streamlit UI, returning answers with source URLs for explainable news research workflows 
